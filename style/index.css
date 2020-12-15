@@ -1,1 +1,125 @@
 /* Add CSS styling here */
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-family: 'Gaegu', cursive;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+}
+.button1 {
+    width: 70px;
+    height: 30px;
+    background: orange;
+    border: 1px solid black;
+    margin: 20px;
+}
+.button2 {
+    width: 70px;
+    height: 30px;
+    background: orange;
+    border: 1px solid black;
+    margin: 20px; 
+    text-decoration: none;
+    color: inherit;
+}
+.button3 {
+    width: 70px;
+    height: 30px;
+    background: orange;
+    border: 1px solid black;
+    margin: 20px;
+    text-decoration: none; 
+    color: inherit;
+}
+.button4 {
+    width: 70px;
+    height: 30px;
+    background: orange;
+    border: 1px solid black;
+    margin: 20px; 
+    text-decoration: none;
+    color: inherit;
+}
+#header_project_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.centered_name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+.projects_container {
+ display: grid;
+ grid-template-columns: repeat(8, 1fr);
+ grid-template-rows: repeat(8, 5vw);
+ grid-gap: 15px;
+}
+.gallery_images {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.black_nd_white {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.walrus {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.cheese {
+    grid-column-start: 7;
+    grid-column-end: 9
+}
+.dog {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
+.farm {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
+.doge {
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
+footer img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    object-position: center top;    
+    }
+footer p {
+    color: black;
+    font-family: sans-serif;
+    width: 100%;
+    text-align: center;
+}
+footer p a {
+    text-decoration: none;
+    color: inherit;
+}
+        
